@@ -1,0 +1,46 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.tmp_mpl/
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments (all variants)
+.venv*/
+venv*/
+env*/
+.env*/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+*.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Generated runtime inspection data & private audit history
+results/inspection_history.sqlite3*
+results/inspection_history_images/
+inspection_results_*.csv
+*.pdf
+
+# Model training outputs, logs & temporary archives
+outputs/
+runs/
+data/
+datasets/
+*.zip
+
