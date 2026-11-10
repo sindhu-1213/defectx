@@ -3,9 +3,7 @@
 > **Inspect. Segment. Classify.**
 
 DefectX is a two-stage industrial visual-inspection system for identifying and
-classifying manufactured objects and defects in image batches. It is the
-rebranded presentation of the existing RIDAC project; the implementation,
-trained models, evaluation results, and project attribution are preserved.
+classifying manufactured objects and defects in image batches.
 Project repository: [sindhu-1213/defectx](https://github.com/sindhu-1213/defectx).
 
 1. **YOLO11 instance segmentation** identifies and isolates manufactured objects.
@@ -599,7 +597,7 @@ Retraining is optional and is **not** needed for application use. The original c
 | Scripted classifier comparison | `scripts/training/train_lightweight_defect_models.py` |
 
 The retained scripts reference the original local experiment directory
-structure, including historical `misc/ridac` dataset locations. Update their
+structure, including historical dataset locations. Update their
 dataset paths before attempting a full reproduction.
 Recorded result metadata also retains absolute paths from the original training
 machine; these are experiment provenance and are not used by the Gradio
